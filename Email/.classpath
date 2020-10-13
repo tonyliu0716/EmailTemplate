@@ -2,11 +2,11 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/liuta3h.000/Documents/MyJabberFiles/joseph.bosco@verizon.com/mail-1.4.4.jar"/>
-	<classpathentry kind="lib" path="C:/Users/liuta3h.000/Documents/MyJabberFiles/joseph.bosco@verizon.com/commons-collections4-4.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/liuta3h.000/Documents/MyJabberFiles/joseph.bosco@verizon.com/poi-3.17.jar"/>
-	<classpathentry kind="lib" path="C:/Users/liuta3h.000/Documents/MyJabberFiles/joseph.bosco@verizon.com/poi-ooxml-3.17.jar"/>
-	<classpathentry kind="lib" path="C:/Users/liuta3h.000/Documents/MyJabberFiles/joseph.bosco@verizon.com/poi-ooxml-schemas-3.17.jar"/>
-	<classpathentry kind="lib" path="C:/Users/liuta3h.000/Documents/MyJabberFiles/joseph.bosco@verizon.com/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="/Users/tonyliu/Downloads/EmailTemplate/poi-ooxml-3.17.jar"/>
+	<classpathentry kind="lib" path="/Users/tonyliu/Downloads/EmailTemplate/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry kind="lib" path="/Users/tonyliu/Downloads/EmailTemplate/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="/Users/tonyliu/Downloads/EmailTemplate/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="/Users/tonyliu/Downloads/EmailTemplate/commons-collections4-4.4.jar"/>
+	<classpathentry kind="lib" path="/Users/tonyliu/Downloads/EmailTemplate/java-mail-1.4.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -30,7 +30,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class SendInlineImagesInEmail {
 	
 	// email address to send
-	static String from = "vbg-dealmonitor-alerts@verizon.com";
+	static String from = "email_address@something.com";
 	
 	static String htmlText = "<html>"+
 			"  <body>"+
@@ -39,7 +39,7 @@ public class SendInlineImagesInEmail {
 			"        <div dir=\"ltr\">"+
 			"          <div class=\"gmail_default\" style=\"color:#073763\">"+
 			"            <div"+
-			"              style='color:rgb(0,0,0);font-family:\"Verizon NHG DS\";font-size:medium'"+
+			"              style='color:rgb(0,0,0);font-family:\"something NHG DS\";font-size:medium'"+
 			"            >"+
 			"              <div style=\"display:flex\">"+
 			"                <div"+
@@ -51,7 +51,7 @@ public class SendInlineImagesInEmail {
 			"                    A Unified Digital Experience that puts deal information at"+
 			"                    your fingertips."+
 			"                  </p>"+
-			"                  <a style=\"text-decoration:none\" href=\"https://dealmonitor.verizon.com\""+
+			"                  <a style=\"text-decoration:none\" href=\"https://dealmonitor.something.com\""+
 			"                    target=\"_blank\">"+
 			"                    <div"+
 			"                    style=\"background-color:rgb(0,172,62);border-radius:10px;color:white;width:190px;height:45px;font-size:20px;margin:30px 0px 15px 18px;border-width:1px;border-style:solid;border-color:rgb(0,172,62);font-weight:700;text-align:center\""+
@@ -89,7 +89,7 @@ public class SendInlineImagesInEmail {
 			"                    >"+
 			"                      <div style=\"display:flex;padding-top:20px\">"+
 			"                        <div>"+
-			"                          <a  href=\"https://degreed.com/courses/deal-monitor-training?d=9717094&orgsso=verizon\" target=\"_blank\">"+
+			"                          <a  href=\"https://degreed.com/courses/deal-monitor-training?d=9717094&orgsso=something\" target=\"_blank\">"+
 			"                            <img"+
 			"                            src=\"cid:help\""+
 			"                            alt=\"image.png\""+
@@ -101,7 +101,7 @@ public class SendInlineImagesInEmail {
 			"                        </div>"+
 			"                        <p style=\"padding-left:36px;margin-top:0px;\">"+
 			"                          <a"+
-			"                            href=\"https://degreed.com/courses/deal-monitor-training?d=9717094&orgsso=verizon\""+
+			"                            href=\"https://degreed.com/courses/deal-monitor-training?d=9717094&orgsso=something\""+
 			"                            style=\"color:inherit\""+
 			"                            target=\"_blank\""+
 			"                            data-saferedirecturl=\"https://www.google.com/url?q=http://ssrc.vzbi.com/contact.php&source=gmail&ust=1602200095380000&usg=AFQjCNEtxXBoIFMML3iKDlaTZWwWD8fjgg\""+
@@ -111,7 +111,7 @@ public class SendInlineImagesInEmail {
 			"                      </div>"+
 			"                      <div style=\"display:flex;padding-top:20px\">"+
 			"                        <div>"+
-			"                          <a href=\"http://vztube.verizon.com/videos/84797/introducing-deal-monitor\" target=\"_blank\">"+
+			"                          <a href=\"http://vztube.something.com/videos/84797/introducing-deal-monitor\" target=\"_blank\">"+
 			"                            <img"+
 			"                            src=\"cid:video\""+
 			"                            alt=\"image.png\""+
@@ -123,17 +123,17 @@ public class SendInlineImagesInEmail {
 			"                        </div>"+
 			"                        <p style=\"padding-left:36px;margin-top:0px;\">"+
 			"                          <a"+
-			"                            href=\"http://vztube.verizon.com/videos/84797/introducing-deal-monitor\""+
+			"                            href=\"http://vztube.something.com/videos/84797/introducing-deal-monitor\""+
 			"                            style=\"color:inherit\""+
 			"                            target=\"_blank\""+
-			"                            data-saferedirecturl=\"https://www.google.com/url?q=http://vztube.verizon.com/videos/84797/introducing-deal-monitor&source=gmail&ust=1602200095380000&usg=AFQjCNE-1T21FC5PtbpWdrAHZAeYb8dU8A\""+
+			"                            data-saferedirecturl=\"https://www.google.com/url?q=http://vztube.something.com/videos/84797/introducing-deal-monitor&source=gmail&ust=1602200095380000&usg=AFQjCNE-1T21FC5PtbpWdrAHZAeYb8dU8A\""+
 			"                            >Watch the Introducing Deal Monitor video</a"+
 			"                          >"+
 			"                        </p>"+
 			"                      </div>"+
 			"                      <div style=\"display:flex;padding-top:20px\">"+
 			"                        <div>"+
-			"                          <a href=\"mailto:dealmonitor-feedback@verizon.com?subject=Deal Monitor - General Availability !!\" target=\"_blank\">"+
+			"                          <a href=\"mailto:dealmonitor-feedback@something.com?subject=Deal Monitor - General Availability !!\" target=\"_blank\">"+
 			"                            <img"+
 			"                            src=\"cid:feedback\""+
 			"                            alt=\"image.png\""+
@@ -147,10 +147,10 @@ public class SendInlineImagesInEmail {
 			"                          Have feedback? You can share any feature requests or"+
 			"                          general feedback with us directly in the tool itself"+
 			"                          or via email at  <a"+
-			"                            href=\"mailto:dealmonitor-feedback@verizon.com\""+
+			"                            href=\"mailto:dealmonitor-feedback@something.com\""+
 			"                            style=\"color:inherit\""+
 			"                            target=\"_blank\""+
-			"                            >dealmonitor-feedback@verizon.<wbr />com</a"+
+			"                            >dealmonitor-feedback@something.<wbr />com</a"+
 			"                          >"+
 			"                        </p>"+
 			"                      </div>"+
@@ -205,12 +205,12 @@ public class SendInlineImagesInEmail {
 			"              </div>"+
 			"            </div>"+
 			"            <div"+
-			"              style='color:rgb(0,0,0);font-family:\"Verizon NHG DS\";font-size:medium'"+
+			"              style='color:rgb(0,0,0);font-family:\"something NHG DS\";font-size:medium'"+
 			"            >"+
 			"              <div style=\"display:inline-flex;padding-left:10px;padding-top: 22px\">"+
 			"                <p style=\"padding:0px 10px;font-size:12px;padding-top:10px\">"+
-			"                  Verizon confidential and proprietary. Unauthorized disclosure,"+
-			"                  reproduction or other use prohibited. ©2020 Verizon"+
+			"                  something confidential and proprietary. Unauthorized disclosure,"+
+			"                  reproduction or other use prohibited. ©2020 something"+
 			"                </p>"+
 			"              </div>"+
 			"            </div>"+
@@ -233,7 +233,7 @@ public class SendInlineImagesInEmail {
 
 	static String username = "******";//change accordingly
     static String password = "******";//change accordingly
-    static String host = "vzsmtp.verizon.com";
+    static String host = "********";
     
 	
    public static ArrayList<Mail> readEmailAddressFromFile() {
