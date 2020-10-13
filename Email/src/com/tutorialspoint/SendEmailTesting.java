@@ -135,7 +135,7 @@ public class SendEmailTesting {
 				"                        <p style=\"padding-left:36px;margin-top:0px;\">"+
 				"                          Have feedback? You can share any feature requests or"+
 				"                          general feedback with us directly in the tool itself"+
-				"                          or via email at  <a"+
+				"                          or via email at Â <a"+
 				"                            href=\"mailto:dealmonitor-feedback@verizon.com\""+
 				"                            style=\"color:inherit\""+
 				"                            target=\"_blank\""+
@@ -149,7 +149,7 @@ public class SendEmailTesting {
 				"                <div style=\"width:600px;height:auto;padding-top:15px\">"+
 				"                  <div>"+
 				"                    <p style=\"font-size:16px\">"+
-				"                      <b>Deal Monitor</b> offers a one-stop shop to Sales,"+
+				"                      <b>Deal Monitor</b>Â offers a one-stop shop to Sales,"+
 				"                      Ordering and Customer serving teams, providing a unified"+
 				"                      tracking experience of Cases, Quotes and Orders across VBG"+
 				"                      Wireline, Wireless and VZ Connect Platforms."+
@@ -199,7 +199,7 @@ public class SendEmailTesting {
 				"              <div style=\"display:inline-flex;padding-left:10px;padding-top: 22px\">"+
 				"                <p style=\"padding:0px 10px;font-size:12px;padding-top:10px\">"+
 				"                  Verizon confidential and proprietary. Unauthorized disclosure,"+
-				"                  reproduction or other use prohibited. ©2020 Verizon"+
+				"                  reproduction or other use prohibited. Â©2020 Verizon"+
 				"                </p>"+
 				"              </div>"+
 				"            </div>"+
@@ -233,9 +233,9 @@ public class SendEmailTesting {
 					
 
 					
-		static String username = "******";//change accordingly
+	    static String username = "******";//change accordingly
 	    static String password = "******";//change accordingly
-	    static String host = "vzsmtp.verizon.com";
+	    static String host = "*********";
 	
 	 public static void main(String[] args) {
  
@@ -246,13 +246,7 @@ public class SendEmailTesting {
 	
 	public static void EmailTesting() {
 		
-	      //String to = "amit.nitin.chaudhari@verizon.com";
-		  String to = "joseph.bosco@verizon.com"; 
-	   	  //String to = "tao.liu@verizon.com";
-	      //String to ="sree.kubbireddy@verizon.com";
-		  //String to = "vishwas.parameshwarappa@verizon.com";
-		  //String to = "zach.megee@verizon.com";
-		  //String to = "bejoy.kollikara@verizon.com";
+	      String to = "*******";
 		
 	      Properties props = new Properties();
 	      props.put("mail.smtp.auth", "true");
@@ -296,7 +290,7 @@ public class SendEmailTesting {
 	         BodyPart img1 = new MimeBodyPart();
 	         img1.addHeader("Content-Type", "image/jpg");
 	         DataSource fds1 = new FileDataSource(
-	            "C:\\Users\\liuta3h.000\\Documents\\MyJabberFiles\\joseph.bosco@verizon.com\\download.jpg");
+	            "download.jpg");
 
 	         img1.setDataHandler(new DataHandler(fds1));
 	         img1.setDisposition(MimeBodyPart.INLINE);
@@ -309,7 +303,7 @@ public class SendEmailTesting {
 	         img2.addHeader("Content-Type", "image/png; name=\"test.png\"");
 	         img2.addHeader("Content-Disposition", "inline");
 	         DataSource fds2 = new FileDataSource(
-	            "C:\\Users\\liuta3h.000\\Documents\\MyJabberFiles\\joseph.bosco@verizon.com\\help.png");
+	            "help.png");
 	         //img2.setContent(fds2, "image/png");
 	         img2.setDataHandler(new DataHandler(fds2));
 	         
@@ -323,7 +317,7 @@ public class SendEmailTesting {
 	         BodyPart img3 = new MimeBodyPart();
 	         img3.addHeader("Content-Type", "image/png");
 	         DataSource fds3 = new FileDataSource(
-	            "C:\\Users\\liuta3h.000\\Documents\\MyJabberFiles\\joseph.bosco@verizon.com\\video.png");
+	            "video.png");
 
 	         img3.setDataHandler(new DataHandler(fds3));
 	         img3.setDisposition(MimeBodyPart.INLINE);
@@ -335,7 +329,7 @@ public class SendEmailTesting {
 	         BodyPart img4 = new MimeBodyPart();
 	         img4.addHeader("Content-Type", "image/png");
 	         DataSource fds4 = new FileDataSource(
-	            "C:\\Users\\liuta3h.000\\Documents\\MyJabberFiles\\joseph.bosco@verizon.com\\feedback.png");
+	            "feedback.png");
 
 	         img4.setDataHandler(new DataHandler(fds4));
 	         img4.setDisposition(MimeBodyPart.INLINE);
@@ -343,17 +337,7 @@ public class SendEmailTesting {
 	         img4.setFileName("feedback.png");
 	         multipart.addBodyPart(img4);
 	         
-	         
-//	         BodyPart img5 = new MimeBodyPart();
-//	         img5.addHeader("Content-Type", "image/png");
-//	         DataSource fds5 = new FileDataSource(
-//	            "C:\\Users\\liuta3h.000\\Documents\\MyJabberFiles\\joseph.bosco@verizon.com\\logo.png");
-//
-//	         img5.setDataHandler(new DataHandler(fds5));
-//	         img5.setDisposition(MimeBodyPart.INLINE);
-//	         img5.setHeader("Content-ID", "<verizon>");
-//	         img5.setFileName("verizon.png");
-//	         multipart.addBodyPart(img5);
+	        
 
 	         
 	         // put everything together
